@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Transport">
+      <UniqueIdentifier>{6d2a822d-2e61-4a47-9656-d21e76bc8540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Transport">
+      <UniqueIdentifier>{bc732c31-c8c9-45be-83dc-7e1ca95706eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Transport\Water">
+      <UniqueIdentifier>{18dd3548-a8be-4dc7-bdef-3eea59ec9970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Transport\Ground">
+      <UniqueIdentifier>{60d0a0a2-60bf-401b-aeed-fe68848b1bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Transport\Water">
+      <UniqueIdentifier>{4b611e77-b708-4606-a161-d7585a788c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Transport\Ground">
+      <UniqueIdentifier>{ccf50bad-bf87-4d1d-b0ad-5f6492fd6dec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="transport.cpp">
+      <Filter>Исходные файлы\Transport</Filter>
+    </ClCompile>
+    <ClCompile Include="Bike.cpp">
+      <Filter>Исходные файлы\Transport\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Исходные файлы\Transport\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Исходные файлы\Transport\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>Исходные файлы\Transport\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="GydroBike.cpp">
+      <Filter>Исходные файлы\Transport\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Исходные файлы\Transport\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="SetOfTransport.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="transport.h">
+      <Filter>Файлы заголовков\Transport</Filter>
+    </ClInclude>
+    <ClInclude Include="Bike.h">
+      <Filter>Файлы заголовков\Transport\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Файлы заголовков\Transport\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Файлы заголовков\Transport\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Файлы заголовков\Transport\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Файлы заголовков\Transport\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="GydroBike.h">
+      <Filter>Файлы заголовков\Transport\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="SetOfTransport.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
