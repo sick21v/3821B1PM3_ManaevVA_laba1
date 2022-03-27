@@ -9,7 +9,7 @@ void Bike::Fuel()
 	cout << "Usage fuel" << endl;
 }
 
-Bike::Bike(int Mileage, string Name) : GroundTransport(Power, Doors)
+Bike::Bike(int Wheels, string Name) : GroundTransport(Power, Doors)
 {
 	this->Wheels = Wheels;
 	this->Name = Name;
