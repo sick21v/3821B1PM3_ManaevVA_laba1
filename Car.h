@@ -14,7 +14,7 @@ public:
 
 	virtual void Fuel();
 
-	Car(int Mileage, string Name);
+	Car(int Wheels, string Name);
 
 	void setName(string enName);
 	string getName();
