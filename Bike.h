@@ -13,7 +13,7 @@ public:
 
 	virtual void Fuel();
 
-	Bike(int Mileage, string Name);
+	Bike(int Wheels, string Name);
 
 	void setWheels(int enWheels);
 	int getWheels();
